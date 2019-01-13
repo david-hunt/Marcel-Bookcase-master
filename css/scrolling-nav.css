@@ -4,6 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,500,700');
+
 header {
   padding: 154px 0 100px;
 }
@@ -15,5 +17,53 @@ header {
 }
 
 section {
-  padding: 50px 0;
+  padding: 25px 0;
+}
+
+.section-grey{
+  background-color: #F7F7F7;
+  padding: 40px 0;
+}
+
+.logo-img {
+  height: 14px;
+  width: 107px;
+  vertical-align: middle;
+}
+
+.nav-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  color: #fff;
+  letter-spacing: 1.2px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+img {
+  height: 80px;
+  width: 80px;
+}
+
+.object-fit_cover {
+  object-fit: cover
+}
+
+.card-text {
+  padding-left: 8px;
+}
+
+.book-card {
+  padding-bottom: 24px;
+}
+
+.underbrow{
+  font-size: 10px;
+  font-weight: bold ;
+  color: #A2A2A2;
+  text-transform: uppercase;
+}
+
+.underbrow-p{
+  margin-bottom: 4px;
 }
