@@ -37,6 +37,20 @@ section {
 }
 
 .logo-img {
+  height: 10px;
+  width: 47px;
+  vertical-align: middle;
+}
+
+.wordmark-img {
+  height: 10px;
+  width: 127px;
+  vertical-align: middle;
+  padding-left: 8px;
+}
+
+@media (min-width: 768px) {
+.logo-img {
   height: 14px;
   width: 107px;
   vertical-align: middle;
@@ -47,6 +61,9 @@ section {
   width: 178px;
   vertical-align: middle;
 }
+
+}
+
 
 .nav-text{
   font-family: 'Montserrat', sans-serif;
