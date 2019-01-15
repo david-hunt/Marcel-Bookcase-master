@@ -52,7 +52,7 @@ section {
 @media (min-width: 768px) {
 .logo-img {
   height: 14px;
-  width: 107px;
+  width: 72px;
   vertical-align: middle;
 }
 
@@ -60,6 +60,7 @@ section {
   height: 14px;
   width: 178px;
   vertical-align: middle;
+  padding-left: 14px;
 }
 
 }
