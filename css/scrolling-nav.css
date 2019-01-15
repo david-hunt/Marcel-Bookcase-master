@@ -108,3 +108,16 @@ img {
 .underbrow-p{
   margin-bottom: 4px;
 }
+
+.footer-link:link{
+  color:#808080;
+}
+
+.footer-link:visited{
+  color: #808080;
+}
+
+.footer-link:hover{
+  color:#fff;
+  text-decoration:underline;
+}
