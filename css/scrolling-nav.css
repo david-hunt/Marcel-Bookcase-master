@@ -16,6 +16,17 @@ header {
   }
 }
 
+ul.scroll-pills {
+    white-space: nowrap;
+    overflow-x: auto;
+    flex-wrap: inherit;
+}
+
+ul.scroll-pills li {
+    display: inline-block;
+    float: none;
+}
+
 section {
   padding: 25px 0;
 }
@@ -24,6 +35,13 @@ section {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   padding-bottom: 32px;
+}
+
+.section-subheading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  padding-bottom: 8px;
+  padding-top:18px;
 }
 
 .section-body{
